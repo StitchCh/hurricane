@@ -1,0 +1,9 @@
+@use 'vuetify' with (
+  $reset: false,
+  $utilities: false,
+  $color-pack: false
+);
+
+html, body, #app {
+  height: 100%;
+}
